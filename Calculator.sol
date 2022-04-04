@@ -36,9 +36,9 @@ contract SimpleStorage {
     History[] public PastOfCalculator;
     struct History{
         string _WhichOperator;
-        uint256 _result;
         uint256 _x;
         uint256 _y;
+        uint256 _result;
     }
     /*IF YOU WANT TO ACCESS THE THIRD OPERATION YOU DID PLEASE WRITE 2 IN THE PastOfCalculator box because we are calling 
     the element with index 2*/
